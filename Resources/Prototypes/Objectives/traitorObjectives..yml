@@ -130,7 +130,7 @@
       prototype: ClothingShoesBootsMagAdv
 
 - type: objective
-  id: SupplyConsoleBoardStealObjective
+  id: SupplyRequestConsoleBoardStealObjective
   issuer: syndicate
   prob: 0.2
   requirements:
@@ -140,7 +140,7 @@
         - DieCondition
   conditions:
     - !type:StealCondition
-      prototype: SupplyComputerCircuitboard
+      prototype: SupplyRequestComputerCircuitboard
 
 - type: objective
   id: CorgiMeatStealObjective
